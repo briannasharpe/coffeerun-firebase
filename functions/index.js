@@ -1,8 +1,11 @@
+const functions = require('firebase-functions');
+
 const { backedUpFiles } = require('./fresh');
 const db = require('diskdb');
 const express = require('express');
 const cors = require('cors');
 const app = express();
+
 
 app.use(express.json());
 app.use(cors({
