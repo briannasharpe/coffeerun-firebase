@@ -25,9 +25,6 @@
             console.log('Truck #' + this.truckId + ' has pending orders:');
             customerIdArray.forEach(function (id) {
                 console.log(orders[id]);
-                if (printFn) {
-                    printFn(orders[id]);
-                }
             }.bind(this));
         }.bind(this));
     };

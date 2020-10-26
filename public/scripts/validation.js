@@ -4,7 +4,7 @@
   
     var Validation = {
         isCompanyEmail: function (email) {
-            return /.+@bignerdranch\.com$/.test(email);
+            return /.+@starfleet\.com$/.test(email);
         }
     };
   
